@@ -385,14 +385,14 @@
         <!--android:src="@drawable/ic_vod_add" />-->
         <!--</RelativeLayout>-->
 
-        <android.support.v4.widget.SwipeRefreshLayout
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
             android:id="@+id/swipe_refresh_layout_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@+id/iv_add"
             android:layout_below="@+id/tab_layout">
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -400,7 +400,7 @@
                 android:layout_below="@+id/tab_layout"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp" />
-        </android.support.v4.widget.SwipeRefreshLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
         <!--<ImageView-->
         <!--android:id="@+id/iv_logo"-->

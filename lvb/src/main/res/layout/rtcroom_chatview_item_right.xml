@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingRight="10dp"
     android:layout_marginTop="4dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <android.support.constraint.Guideline
+    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent=".25"/>
+        app:layout_constraintGuide_percent=".25" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -37,8 +36,8 @@
             android:layout_gravity="right"
             android:singleLine="false"
             android:textColor="#EEEEEE"
-            android:text="你好，不要着急请您协助我进行在线勘定损请您协助我进行在线勘定损"/>
+            android:text="你好，不要着急请您协助我进行在线勘定损请您协助我进行在线勘定损" />
     </LinearLayout>
 
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

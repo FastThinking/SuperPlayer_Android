@@ -14,7 +14,7 @@ import android.view.MotionEvent;
 
 import com.tencent.liteav.demo.lvb.R;
 
-public class TCSeekbarWithText extends android.support.v7.widget.AppCompatSeekBar {
+public class TCSeekbarWithText extends androidx.appcompat.widget.AppCompatSeekBar {
     /**
      * 文本的颜色
      */
